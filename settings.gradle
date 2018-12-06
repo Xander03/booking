@@ -1,0 +1,11 @@
+rootProject.name = 'lab4'
+include 'model'
+include 'validator'
+include 'repository'
+include 'database'
+include 'common'
+include 'service'
+include 'controller'
+include 'dispatcher'
+include 'web'
+

@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.korzunva'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':common')
+    compile group: 'com.h2database', name: 'h2', version: '1.4.197'
+}

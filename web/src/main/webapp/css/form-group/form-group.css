@@ -1,0 +1,38 @@
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.form-group input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 340px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+.form-group input:focus {
+    outline: none;
+}
+
+.form-group label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.form-group input:focus ~ label,
+.form-group input:valid ~ label,
+.form-group input:read-only ~ label {
+    top:-20px;
+    font-size:16px;
+    color:#5264AE;
+}

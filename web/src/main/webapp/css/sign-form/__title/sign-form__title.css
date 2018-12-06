@@ -1,0 +1,10 @@
+.sign-form__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ffffff;
+    background: #667e93;
+    padding: 25px 0;
+    margin: 0 0 10px;
+}

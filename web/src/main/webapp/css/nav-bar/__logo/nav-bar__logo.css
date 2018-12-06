@@ -1,0 +1,10 @@
+.nav-bar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
